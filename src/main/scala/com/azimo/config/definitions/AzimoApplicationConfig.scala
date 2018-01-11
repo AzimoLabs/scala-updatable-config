@@ -1,6 +1,6 @@
-package com.azimolabs.config.definitions
+package com.azimo.config.definitions
 
-import com.azimolabs.config.Lease
+import com.azimo.config.Lease
 import eu.timepit.refined.W
 import eu.timepit.refined.api.Refined
 import eu.timepit.refined.numeric.Greater

@@ -1,4 +1,4 @@
-package com.azimolabs.config
+package com.azimo.config
 
 import eu.timepit.refined._
 import eu.timepit.refined.api.Refined

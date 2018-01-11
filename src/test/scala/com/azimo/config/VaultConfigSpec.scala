@@ -1,12 +1,12 @@
-package com.azimolabs.config
+package com.azimo.config
 
 import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.model.headers._
 import akka.http.scaladsl.model.{ContentTypes, HttpMethods, HttpRequest}
 import akka.stream.ActorMaterializer
-import com.azimolabs.config.definitions.AzimoApplicationConfig.Credentials
-import com.azimolabs.config.definitions.VaultConfiguration
+import com.azimo.config.definitions.AzimoApplicationConfig.Credentials
+import com.azimo.config.definitions.VaultConfiguration
 import eu.timepit.refined._
 
 import scala.collection.JavaConverters._

@@ -1,8 +1,8 @@
-package com.azimolabs.config
+package com.azimo.config
 
 import akka.actor.{Actor, ActorRef, ActorSystem, Props}
-import com.azimolabs.config.definitions.AzimoApplicationConfig._
-import com.azimolabs.config.definitions.VaultConfiguration
+import com.azimo.config.definitions.AzimoApplicationConfig._
+import com.azimo.config.definitions.VaultConfiguration
 import com.bettercloud.vault.api.Logical
 import com.bettercloud.vault.response.LogicalResponse
 import com.bettercloud.vault.{Vault, VaultConfig}

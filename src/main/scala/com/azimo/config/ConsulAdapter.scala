@@ -1,8 +1,8 @@
-package com.azimolabs.config
+package com.azimo.config
 
-import com.azimolabs.config.UpdatableConfiguration.ValuePath
-import com.azimolabs.config.definitions.AzimoApplicationConfig._
-import com.azimolabs.config.definitions.{ConsulConfiguration, ServiceAddress}
+import com.azimo.config.UpdatableConfiguration.ValuePath
+import com.azimo.config.definitions.AzimoApplicationConfig._
+import com.azimo.config.definitions.{ConsulConfiguration, ServiceAddress}
 import com.google.common.net.HostAndPort
 import com.orbitz.consul.model.agent.Registration
 import com.orbitz.consul.model.catalog.CatalogService

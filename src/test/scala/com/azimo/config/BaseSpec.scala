@@ -1,4 +1,4 @@
-package com.azimolabs.config
+package com.azimo.config
 
 import org.scalatest.concurrent.ScalaFutures
 import org.scalatest.time.{Millis, Seconds, Span}

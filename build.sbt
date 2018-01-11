@@ -1,7 +1,7 @@
 import sbt.Keys._
 
 name := "scala-updatable-config"
-organization := "com.azimolabs"
+organization := "com.azimo"
 
 scalaVersion := "2.12.3"
 

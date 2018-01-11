@@ -1,8 +1,8 @@
-package com.azimolabs.config
+package com.azimo.config
 
 import cats.Monoid
-import com.azimolabs.config.UpdatableConfiguration.ValuePath
-import com.azimolabs.config.definitions.AzimoApplicationConfig.Credentials
+import com.azimo.config.UpdatableConfiguration.ValuePath
+import com.azimo.config.definitions.AzimoApplicationConfig.Credentials
 import com.typesafe.scalalogging.LazyLogging
 import eu.timepit.refined.api.{RefType, Validate}
 import eu.timepit.refined.auto._

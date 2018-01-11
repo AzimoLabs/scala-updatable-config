@@ -1,4 +1,4 @@
-package com.azimolabs.config
+package com.azimo.config
 
 import org.scalatest.{BeforeAndAfterAll, Suite}
 import ru.yandex.qatools.embed.postgresql.EmbeddedPostgres

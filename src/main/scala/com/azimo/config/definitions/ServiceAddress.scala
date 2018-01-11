@@ -1,3 +1,3 @@
-package com.azimolabs.config.definitions
+package com.azimo.config.definitions
 
 case class ServiceAddress(address: String, port: Int)

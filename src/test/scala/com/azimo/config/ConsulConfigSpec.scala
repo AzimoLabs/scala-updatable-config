@@ -1,4 +1,4 @@
-package com.azimolabs.config
+package com.azimo.config
 
 class ConsulConfigSpec extends BaseSpec {
 

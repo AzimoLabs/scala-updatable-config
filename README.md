@@ -43,8 +43,8 @@ azimo {
 
 ```scala
 import akka.actor.ActorSystem
-import com.azimolabs.config.definitions.AzimoApplicationConfig._
-import com.azimolabs.config.definitions.{ConsulConfiguration, VaultConfiguration}
+import com.azimo.config.definitions.AzimoApplicationConfig._
+import com.azimo.config.definitions.{ConsulConfiguration, VaultConfiguration}
 import pureconfig._
 import eu.timepit.refined._
 import eu.timepit.refined.pureconfig._
@@ -52,7 +52,7 @@ import eu.timepit.refined.api.Refined
 import eu.timepit.refined.numeric._
 import eu.timepit.refined.string.{MatchesRegex, Uri}
 import cats.instances.all._
-import com.azimolabs.config.{ConsulAdapter, UpdatableConfiguration, VaultAdapter}
+import com.azimo.config.{ConsulAdapter, UpdatableConfiguration, VaultAdapter}
 import scala.concurrent.ExecutionContext
 import scala.util.Success
 

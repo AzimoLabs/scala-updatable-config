@@ -1,4 +1,4 @@
-package com.azimolabs.config.definitions
+package com.azimo.config.definitions
 
 import AzimoApplicationConfig._
 
