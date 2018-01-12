@@ -12,7 +12,8 @@ scmInfo := Some(
 )
 
 developers := List(
-  Developer("MiLebi", "MiLebi", "mlebida@gmail.com", url("https://github.com/MiLebi"))
+  Developer("MiLebi", "", "mlebida@gmail.com", url("https://github.com/MiLebi")),
+  Developer("mlosiewicz-pl", "", "michal.losiewicz@azimo.com", url("https://github.com/mlosiewicz-pl"))
 )
 
 licenses += ("The Apache Software License, Version 2.0", url("http://www.apache.org/licenses/LICENSE-2.0.txt"))
