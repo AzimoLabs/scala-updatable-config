@@ -1,6 +1,6 @@
 # Updatable Scala Config
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.azimo/scala-updatable-config_2.12/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.azimo/scala-updatable-config_2.12/badge.svg)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.azimo/scala-updatable-config_2.12/badge.svg)](https://search.maven.org/#artifactdetails%7Ccom.azimo%7Cscala-updatable-config_2.12%7C0.1.0%7Cjar)
 
 
 Library based on pure-config for get updates from Consul or Vault backend.
