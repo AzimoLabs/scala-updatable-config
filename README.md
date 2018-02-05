@@ -154,7 +154,7 @@ case class ExternalServiceConfiguration(
 ### Library dependency
 
 ```sbtshell
-"com.azimo. % "lib-scala-config" % "0.1.0"
+"com.azimo" %% "scala-updatable-config" % "0.1.0"
 ```
 
 ## License
