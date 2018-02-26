@@ -1,5 +1,7 @@
 package com.azimo.config
 
+import java.util
+
 import com.azimo.config.UpdatableConfiguration.ValuePath
 import com.azimo.config.definitions.AzimoApplicationConfig._
 import com.azimo.config.definitions.{ConsulConfiguration, ServiceAddress}
@@ -12,6 +14,7 @@ import com.orbitz.consul.{Consul, KeyValueClient, SessionClient}
 import com.typesafe.scalalogging.LazyLogging
 import java.util.UUID
 
+import scala.collection.mutable
 import scala.util.Try
 
 class ConsulAdapter(consulConfiguration: ConsulConfiguration) extends ValueGetter with LazyLogging {
@@ -46,6 +49,14 @@ class ConsulAdapter(consulConfiguration: ConsulConfiguration) extends ValueGette
       c =>
         val response = c.catalogClient().getService(serviceName).getResponse
         response.asScala.headOption
+    }
+  }
+
+  def servicesAddress(serviceName: String): Option[mutable.Buffer[CatalogService]] = {
+    consul.flatMap {
+      c =>
+        val response: util.List[CatalogService] = c.catalogClient().getService(serviceName).getResponse
+        Option(response.asScala)
     }
   }
 
